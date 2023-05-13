@@ -1,0 +1,131 @@
+@import '~normalize.css';
+@import '~antd/dist/reset.css';
+
+/* 全局样式的重置 */
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+header,
+menu,
+section,
+p,
+input,
+td,
+th,
+ins {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+a:hover {
+    color: #666;
+    text-decoration: underline;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+    outline: none;
+    border: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+/* 全局样式 */
+body,
+textarea,
+select,
+input,
+button {
+    font-size: 12px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/* 固定宽度且居中 */
+.wrap-v1 {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.wrap-v2 {
+    width: 980px;
+    margin: 0 auto;
+}
+
+/* 存放精灵图 */
+/* .sprite_01 {
+    background: url() no-repeat 0 9999px;
+}
+
+.sprite_02 {
+    background: url() no-repeat 0 9999px;
+}
+
+.sprite_covor {
+    background: url() no-repeat 0 9999px;
+}
+
+.sprite_icon {
+    background: url() no-repeat 0 9999px;
+}
+
+.sprite_icon01 {
+    background: url() no-repeat 0 9999px;
+}
+
+.sprite_icon02 {
+    background: url() no-repeat 0 9999px;
+}
+
+.sprite_button {
+    background: url() no-repeat 0 9999px;
+}
+
+.sprite_button2 {
+    background: url() no-repeat 0 9999px;
+} */
